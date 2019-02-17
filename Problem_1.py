@@ -10,3 +10,8 @@
 num = int(input ("Please enter a positive number to compute : "))
 i = 0
 
+while num > 0:
+    i = i + num
+    num = num - 1 
+
+print(i)
