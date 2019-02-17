@@ -10,6 +10,10 @@
 num = int(input ("Please enter a positive number to compute : "))
 i = 0
 
+if num < 0:
+    (print( "The number must be a positive number "))
+    num = int(input("Please try again by entering a positive number : "))
+
 while num > 0:
     i = i + num
     num = num - 1 
