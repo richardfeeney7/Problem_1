@@ -7,3 +7,6 @@
         sum of all numbers between one and that number.  
 """
 
+num= int(input "Please enter a positive number to compute")
+total=0
+
