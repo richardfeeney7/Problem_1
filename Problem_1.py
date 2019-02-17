@@ -10,11 +10,20 @@
 print("\n")
 num = int(input ("Please enter a positive number to compute : "))
 i = 0
+count=1
 
 while num < 0:
     print("\n")
     #print( "The number must be a positive number ")
     num = int(input("That was a negivive number, please try again by entering a positive number : "))
+    if num < 0:
+        print("\n")
+        try_again = input("Another negative number. Would you like to try another number  'Y' or 'N' ?  ")
+        if try_again == "Y" or try_again == "y":
+            print("\n")
+            num = int(input("Please try again : " ))
+        else:
+            break
 
 while num > 0:
     i = i + num
@@ -22,3 +31,9 @@ while num > 0:
 
 print("\n")
 print("The sum of all the numbers between one and your number is " , i )
+
+print("\n")
+try_again = input("Would you like to try another number  'Y' or 'N' ?  ")
+if try_again == "Y" or try_again == "y":
+    print("\n")
+    num = int(input("Please try again : " ))
