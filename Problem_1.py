@@ -7,15 +7,18 @@
         sum of all numbers between one and that number.  
 """
 
+print("\n")
 num = int(input ("Please enter a positive number to compute : "))
 i = 0
 
-if num < 0:
-    (print( "The number must be a positive number "))
-    num = int(input("Please try again by entering a positive number : "))
+while num < 0:
+    print("\n")
+    #print( "The number must be a positive number ")
+    num = int(input("That was a negivive number, please try again by entering a positive number : "))
 
 while num > 0:
     i = i + num
     num = num - 1 
 
-print(i)
+print("\n")
+print("The sum of all the numbers between one and your number is " , i )
