@@ -9,8 +9,8 @@
 
 print("\n")
 num = int(input ("Please enter a positive number : "))
-i = 0
-y = 0
+#i , y = 0, 0
+i = y = 0
 
 while num < 0:
     print("\n")
@@ -25,7 +25,7 @@ else:
     while num > 0:
         i = i + num
         num = num - 1 
-
+    
     else:
         print("\n")
         print("The sum of all the numbers between one and your number is " , i )
