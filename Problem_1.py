@@ -26,6 +26,7 @@ else:
         i = i + num
         num = num - 1 
     
+    
     else:
         print("\n")
         print("The sum of all the numbers between one and your number is " , i )
