@@ -51,6 +51,7 @@ else:
             while num > 0:
                 y = y + num
                 num = num - 1 
+
                 
             #if the user input was not to try again it will out the number in y
             else:
