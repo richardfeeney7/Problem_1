@@ -49,11 +49,11 @@ This program checks the current date and if the date falls on a Tuesday or Thurs
 
 *Additional study resources used*
 
-    - https://www.youtube.com/watch?v=eirjjyP2qcQ
+    * https://www.youtube.com/watch?v=eirjjyP2qcQ
 
-    - https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python
+    * https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python
 
-    - https://www.programiz.com/python-programming/datetime/strftime
+    * https://www.programiz.com/python-programming/datetime/strftime
 
 ## Question 3
 
@@ -66,5 +66,5 @@ This program will display all the number that are divisible by 6. If the number 
 *Additional study resources used*
 
     * https://www.digitalocean.com/community/tutorials/ how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
-    
+
     * https://www.w3schools.com/python/ref_func_range.asp
