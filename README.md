@@ -39,7 +39,9 @@ I have also added a statement that checks if the user enters in a negative numbe
 
 *Write a program that outputs whether or not today is a day that begins with the letter T.
 
+
 This program checks the current date and if the date falls on a Tuesday or Thursday it will output to the user that today starts with T. If the day begins with any other letter the user will be told what day it is and that it does not start with the letter T. 
+
 
 *Additional study resources used*
     * https://www.youtube.com/watch?v=eirjjyP2qcQ
@@ -48,9 +50,11 @@ This program checks the current date and if the date falls on a Tuesday or Thurs
 
 ## Question 3
 
-*Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12
+*Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12*
+
 
 This program will display all the number that are divisible by 6. If the number is divisible by both 6 and 12 the line will be skipped and wont be outputted for the user to see.
+
 
 *Additional study resources used*
     * https://www.digitalocean.com/community/tutorials/ how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
