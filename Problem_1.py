@@ -15,11 +15,11 @@ i = y = 0
 #This while loop will check num to see if it it less than 0. If true it will ask the user to try again. If the user enters Y it will loop and do it again ELSE it will exit the application. 
 while num < 0:
     print("\n")
+
     #The try_again1 variable is used to store the input from the user asking if they want to try again.
-
     try_again1 = input("Negative number. Would you like to try another number  'Y' or 'N' ? : ")
-    #The if statment checks if the user enters Y or y and if anything else is entered it will exit the application.
 
+    #The if statement checks if the user enters Y or y and if anything else is entered it will exit the application.
     if try_again1 == "Y" or try_again1 == "y":
         print("\n")
         num = int(input("Please try again by entering a positive number : " ))
@@ -52,7 +52,7 @@ else:
                 y = y + num
                 num = num - 1 
 
-                
+
             #if the user input was not to try again it will out the number in y
             else:
                 print("\n")
