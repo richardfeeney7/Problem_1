@@ -30,9 +30,13 @@ This program is ask the user for an input then get the total sum between 1 and t
 I have also added a statement that checks if the user enters in a negative number and if a negative number is entered they will be asked if they want to try again or exit the application. 
 
 *Additional study resources used*
+    
     * https://www.w3schools.com/python/python_while_loops.asp
+
     * https://www.tutorialspoint.com/python/python_while_loop.htm
+
     * https://www.w3schools.com/python/python_variables.asp
+
     * https://www.w3schools.com/python/python_conditions.asp
 
 ## Question 2
@@ -44,9 +48,11 @@ This program checks the current date and if the date falls on a Tuesday or Thurs
 
 
 *Additional study resources used*
+
     - https://www.youtube.com/watch?v=eirjjyP2qcQ
-    
+
     - https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python
+
     - https://www.programiz.com/python-programming/datetime/strftime
 
 ## Question 3
@@ -58,5 +64,7 @@ This program will display all the number that are divisible by 6. If the number 
 
 
 *Additional study resources used*
+
     * https://www.digitalocean.com/community/tutorials/ how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
+    
     * https://www.w3schools.com/python/ref_func_range.asp
