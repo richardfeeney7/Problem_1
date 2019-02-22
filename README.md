@@ -45,6 +45,7 @@ This program checks the current date and if the date falls on a Tuesday or Thurs
 
 *Additional study resources used*
     - https://www.youtube.com/watch?v=eirjjyP2qcQ
+    
     - https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python
     - https://www.programiz.com/python-programming/datetime/strftime
 
