@@ -13,9 +13,9 @@ num = int(input("Please enter a positive number : ")) #Store user input in num
 print("\n")
 
 
-while num > 1: # This will check user input and ones loop while > 1. If i had > 0 is would run an infinite loop with the number 1
-    if num % 2 == 0: # Checks the remainder of num and if = 0 continue
-       num = num/2 #Divide num by 2 
+while num > 1:       #This will check user input and ones loop while > 1. If i had > 0 is would run an infinite loop with the number 1
+    if num % 2 == 0: #Checks the remainder of num and if = 0 continue
+       num = num/2   #Divide num by 2 
        print(int(num)) #The int(input) on line 12 was giving a boolean number so i added int here too
 
     else: # Will be used if the number is an odd number 
