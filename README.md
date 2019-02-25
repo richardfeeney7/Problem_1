@@ -87,5 +87,11 @@ This program accepts user input, this user input must be a positive number. If t
 
 *Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime*   
 
+Completed this question by using the range function that is inside an if statement. The if statement checks if the user enters in a number greater than 1 because 1 is not a prime number. If the user enters in a negative number they will be told that prime numbers can only be positive.  
 
+*Additional study resources used*
+
+    * https://www.pythoncentral.io/pythons-range-function-explained/? fbclid=IwAR2ybMGVtGGxXdW-e3FMYh6OLgwB9jkSjej-Igr96Bz6581hl1s0xSaILZI
+
+    * https://stackoverflow.com/questions/11619942/print-series-of-prime-numbers-in-python?fbclid=IwAR0oTLdlnxyIj0bdKz_gqOJWTJr2m2LnkICzHVtzemMlNt_ie80KR-nvI04
 

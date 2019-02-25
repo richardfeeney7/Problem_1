@@ -24,11 +24,11 @@ print("\n")
 if num > 1:
     for i in range(2,num): #Create the range function and set i = 1
         if num % i == 0:    #If the user input Mod i == 0 do this print not prime 
-            print("Sorry", name, " ",num, " is not prime")
+            print("Sorry", name ,num, "is not prime")
             break
     else:
-        print("Yes ", name," ",num, "is a prime number")   
-elif num == 1:
-    print("Sorry ", num, "is not a prime number")  
+        print("Yes", name, num, "is a prime number")   
+elif num == 1: # 1 cant be a prime number aas it only has 1 factor
+    print("Sorry", num, "is not a prime number")  
 elif num < 0:
     print("A prime number cant be a negative number")
