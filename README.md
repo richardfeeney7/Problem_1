@@ -82,3 +82,10 @@ This program accepts user input, this user input must be a positive number. If t
 
     * https://math.stackexchange.com/questions/2694/what-is-the-importance-of-the-collatz-conjecture
 
+
+## Question 5
+
+*Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime*   
+
+
+
