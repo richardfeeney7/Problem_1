@@ -99,9 +99,24 @@ Completed this question by using the range function that is inside an if stateme
 
 ## Question 6
 
-*Write a program that takes a user input string and outputs every second word.*   
+*Write a program that takes a user input string and outputs every second word.* 
 
+This program takes user input and by using .split() I can take that input and put the words into a list. I can then slice this list to retrieve the information that i need. I used len() in the slice so it will jump in multiples of two depending on the string length the user provided. I have used * at the beginning of the slice as this stopped [ ] appearing when every second work was printed out on screen. I could have used .join in my slice instead of * but * was quicker for me. I have an example of both in my code.  
+
+
+*Additional study resources used*
 
     * https://www.youtube.com/watch?v=ajrtAuDg3yw
     * https://www.w3schools.com/python/ref_string_split.asp
     * https://www.decalage.info/en/python/print_list
+
+
+## Question 7
+
+*Write a program that takes a positive ﬂoating point number as input and outputs an approximation of its square root.*
+
+Python has a module called math that store functions like sqrt() which is how I completed this assignment. I added in an if statement to make sure that the user input was positive and display a message if it was not. This question asks for a floating input and output so I will use a float as int does not store decimal numbers. Some output can have alot of digits after the decimal so I have used the round function that rounds the number to two decimal places. 
+
+
+*Additional study resources used*
+    * https://www.tutorialspoint.com/python/number_sqrt.htm
