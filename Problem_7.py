@@ -13,7 +13,6 @@ num = float(input("Please enter in a number containing decimals : "))
 # Use float to accept a decimal input from the user and store in num. 
 
 if(num > 0):
-
     print("\n")
     num2 = (math.sqrt(num))
     #take user input num and use the math.sqrt to find the square root and store it in num 2
