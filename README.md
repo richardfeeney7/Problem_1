@@ -10,7 +10,7 @@ complete
 
         *https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf*
 
-## * How to run these files *
+## How to run these files 
    * Download and install anaconda on your device ( I recommend version 3.7 +) 
    * Download and install Visual Studio Code 
    * Download Cmder command line (optional)
