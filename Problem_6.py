@@ -8,8 +8,8 @@ sent = input("Please enter a sentence : ").split() # Accept user input and store
 # Split is used to split the string into a list
 
 
-#     sent[start:end:step] 
-print(*sent[1:len(sent):2], sep=" ---- ") #slicing the string to pull the information needed. len () will 
+#     sent[start:end:step]  How to slice the string sent. 
+print(*sent[0:len(sent):2], sep=" ---- ") #slicing the string to pull the information needed. len () will 
 # sep is used to add a seperation with lines between the work. Not needed but I think it reads better
 
 
