@@ -23,4 +23,4 @@ def user_input(num):        # Define function
     if num < 1:                     # Check is num < 1 and prints try again
         print("Please try again")   # Prints output
 
-user_input(int(input("Please enter a positive number : "))) #Store user input in num
+user_input(int(input("Please enter a positive number : "))) #Store user input in user_input
