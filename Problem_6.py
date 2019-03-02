@@ -7,9 +7,13 @@
 sent = input("Please enter a sentence : ").split(' ') # Accept user input and store in sent
 # Split is used to split the string into a list
 
+sent = [ignore.replace(',',  '').replace('.' , '') for ignore in sent]
+
 #     sent[start:end:step]  How to slice the string sent. 
-print(*sent[0:len(sent):2], sep=" ---- ",) #slicing the string to pull the information needed. len () will 
+print(*sent[0:len(sent):2], sep=" / ",) #slicing the string to pull the information needed. len () will 
 # sep is used to add a seperation with lines between the work. Not needed but I think it reads better
+
+
 
 
 # To remove [] from the output I have added a * just before sent in the pint statement but the statement
