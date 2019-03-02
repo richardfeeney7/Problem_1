@@ -1,18 +1,21 @@
 #                   Author : Richard Feeney Started: 17/02/2019
 
-#                                    Problem 1 :                                                                         Write a program that asks the user to input any positive integer and outputs the                                               sum of all numbers between one and that number.  
+#                                    Problem 1 :                                                                         
+#           Write a program that asks the user to input any positive integer and outputs the                                               sum of all numbers between one and that number.  
 
 
 
-#Below print("\") statement will give space between sentences for the user to read and or input
+
 print("\n")
 
-# User input is stored in num. And I and Y are set to 0 and Y will be used to store user input when they are asked if they want to try again if its a negative number and I will be used to store num -1. #
+# User input is stored in num. And i and y are set to 0, y will be used to store user input when they are asked if they want to try 
+# again if its a negative number and i will be used to store num -1. #
 num = int(input ("Please enter a positive number : "))
+
 #i , y = 0, 0 This is another way to say i = y = 0
 i = y = 0
 
-#This while loop will check num to see if it it less than 0. If true it will ask the user to try again. If the user enters Y it will loop and do it again ELSE it will exit the application. 
+#Loop will check num to see if it it less than 0. If less 0 it will ask the user to try again. If the user enters y it will loop and do it again ELSE it will exit the application. 
 while num < 0:
     print("\n")
 
