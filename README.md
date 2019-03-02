@@ -8,7 +8,7 @@ This document contains the instructions for Problem Set 2019 for Programming and
 complete ten problems during the semester. Please find a link below to the problem set that we are required to
 complete
 
-        *https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf*
+        https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
 ## How to run these files 
    * Download and install anaconda on your device ( I recommend version 3.7 +) 
@@ -111,6 +111,8 @@ This program takes user input and by using .split() I can take that input and pu
     * https://www.w3schools.com/python/ref_string_split.asp
     
     * https://www.decalage.info/en/python/print_list
+
+    * https://www.w3schools.com/python/ref_string_replace.asp
 
 
 ## Question 7
