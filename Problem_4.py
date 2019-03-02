@@ -8,19 +8,19 @@
        if it is even,divide it by two,but if it is odd,multiply it by three and add one.
 '''
 
-print("\n")
-num = int(input("Please enter a positive number : ")) #Store user input in num
-print("\n")
+def user_input(num):        # Define function
+    while num > 1:          # This will check user input and loops while > 1. If i had > 0 is would run an infinite loop with the number 1
+        if num % 2 == 0:    # Checks the remainder of num and if = 0 continue
+            num = num/2     # Divide num by 2 
+            print(int(num))      # Print the output
 
+        else:                 # Will be used if the number is an odd number 
+            num = (num*3) + 1 # If number is odd this calculation will be stored and printed to the screen
+            print(int(num))   # Print the output
 
-while num > 1:       #This will check user input and ones loop while > 1. If i had > 0 is would run an infinite loop with the number 1
-    if num % 2 == 0: #Checks the remainder of num and if = 0 continue
-       num = num/2   #Divide num by 2 
-       print(num)
+# User input was set to int but was outputting a float (Decimal), I have the prints set to output int and this has solved the issue.
 
-    else: # Will be used if the number is an odd number 
-        num = (num*3) + 1 #If number is odd this calculation will be stored and printed to the screen
-        print(num) 
+    if num < 1:                     # Check is num < 1 and prints try again
+        print("Please try again")   # Prints output
 
-if num < 1: # Check is num < 1 and prints try again
-    print("Please try again")
+user_input(int(input("Please enter a positive number : "))) #Store user input in num
