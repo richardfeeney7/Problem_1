@@ -18,12 +18,11 @@
        print(x, "Divisible by 6")
 '''
 
-# x is the var that will increment by 1 starting from 1000 until it reaches 10000 and stops.
-for x in range(1000,10001): #Set to 10001 so 10000 is included
-    # % looks for a remainder and if it = 0 it is true. Below i am looking for mod 6 and 12 together and if true pass 
-    if (x%6 == 0 and x%12 == 0):
-         pass # I want the if statement to execute but not to print anything
+                            # x is the var that will increment by 1 starting from 1000 until it reaches 10000 and stops.
+for x in range(1000,10001): # Set to 10001 so 10000 is included
+   
+    if (x%6 == 0 and x%12 == 0):   # % looks for a remainder and if it = 0 it is true.
+         pass                      # I want the if statement to execute but not to print anything
 
-    # Below is the output if mod of 6 = 0. It will print the number.
-    elif (x%6 == 0):
+    elif (x%6 == 0):        # Below is the output if mod of 6 = 0. It will print the number.
        print(x, "Divisible by 6")
