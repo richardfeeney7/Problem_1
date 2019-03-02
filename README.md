@@ -107,7 +107,9 @@ This program takes user input and by using .split() I can take that input and pu
 *Additional study resources used*
 
     * https://www.youtube.com/watch?v=ajrtAuDg3yw
+
     * https://www.w3schools.com/python/ref_string_split.asp
+    
     * https://www.decalage.info/en/python/print_list
 
 
@@ -119,4 +121,5 @@ Python has a module called math that store functions like sqrt() which is how I 
 
 
 *Additional study resources used*
+
     * https://www.tutorialspoint.com/python/number_sqrt.htm
