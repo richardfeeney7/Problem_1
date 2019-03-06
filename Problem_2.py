@@ -18,7 +18,7 @@ print("\n")
 
 if tdate == 1 or tdate ==3: # Instead of using the longer if above i created a var tdate to store current date.
 
-    # I orginally used tdate in this print but change to use the strftime method instead
+    print(" Today starts with a T")# I orginally used tdate in this print but change to use the strftime method instead
     print("Great news :) todays is" ,d.strftime("%A"), "and begins with the letter T") #This will tell the user what day it is and that it does not start with a T
     # Steftime("%A") will display the full weekday name and if its Tue or Thurs is will output 
     
