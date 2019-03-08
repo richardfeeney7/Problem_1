@@ -12,7 +12,7 @@ def user_input(num):        # Define function
     while num > 1:          # This will check user input and loops while > 1. If i had > 0 is would run an infinite loop with the number 1
         if num % 2 == 0:    # Checks the remainder of num and if = 0 continue
             num = num/2     # Divide num by 2 
-            print(int(num))      # Print the output
+            print(int(num)) # Print the output
 
         else:                 # Will be used if the number is an odd number 
             num = (num*3) + 1 # If number is odd this calculation will be stored and printed to the screen
