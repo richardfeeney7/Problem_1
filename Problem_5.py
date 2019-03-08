@@ -19,10 +19,13 @@ def prime(num):                 # Define the function
     if num > 1:                 # Start if statement to search for prime number
         for i in range(2,num):  # Create the range function and set i = 1
             if num % i == 0:    # If the user input Mod i == 0 do this print not prime 
-                print("Sorry", name ,num, "is not prime")
-                break           # Break out one number is not prime
+                
+                #print("Sorry" ,name, num, "is not prime")
+                print(f"Sorry {name}" ,num, "is not prime") # Modified above print to use formatted string
+                break                                       # Break out one number is not prime
         else:
-            print("Yes", name, num, "is a prime number") 
+            # print("Yes", name, num, "is a prime number") 
+              print(f"Yes {name}", num, "is a prime number") # Modified above print to use formatted string
 
     elif num == 1:              # 1 cant be a prime number as it only has 1 factor
         print("Sorry", num, "is not a prime number")  

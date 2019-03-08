@@ -14,4 +14,5 @@ def sqrt(num):      # Define function
     else:
         print("Please input a positive number ! ")
 
+'''sqrt(input("Please enter in a number containing decimals : ")) # This is outputting a decimal so ill define it as an int.'''
 sqrt(int(input("Please enter in a number containing decimals : "))) # Use int to accept a decimal input from the user and store in num. 
