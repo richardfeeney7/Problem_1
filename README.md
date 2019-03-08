@@ -44,7 +44,9 @@ I have also added a statement that checks if the user enters in a negative numbe
 *Write a program that outputs whether or not today is a day that begins with the letter T.*
 
 
-This program checks the current date and if the date falls on a Tuesday or Thursday it will output to the user that today starts with T. If the day begins with any other letter the user will be told what day it is and that it does not start with the letter T. 
+This program checks the current day. If the day falls on a Tuesday or Thursday it will output to the user that today starts with T. If the day begins with any other letter the user will be told what the current day is and that it does not start with the letter T. 
+
+To create this application I imported the datetime function and gave it an alias of dt so it would involve less writing as I used it in the application.
 
 
 *Additional study resources used*
