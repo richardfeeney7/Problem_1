@@ -33,4 +33,3 @@ if tdate == 1 or tdate ==3: # Instead of using the longer if above i created a v
     
 else:
     print("Unfortunately today is",d.strftime("%A"), "does not start with a T :) .") 
-
