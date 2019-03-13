@@ -1,13 +1,13 @@
 # Author Richard Feeney
 # Date 21/02/2017
 
-#                                        Problem 3 : 
+#                                         Problem 3 : 
  
 #     Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12. 
 
 
 ''' I had this block of code written before I read the question properly. The output will show what is divisible by 6 alone and what is 
-divisible by both 6 and 12 together.   
+    divisible by both 6 and 12 together. 
 
  I used the range function to return the sequence of numbers starting from 1000 and increments by 1
 
