@@ -4,3 +4,10 @@ Its high-level built in data structures, combined with dynamic typing and dynami
 Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. 
 Python supports modules and packages, which encourages program modularity and code reuse.
 The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+
+,
+Title : What is Data Analysis ? 
+The process of evaluating data using analytical and logical reasoning to examine each component of the data provided. 
+This form of analysis is just one of the many steps that must be completed when conducting a research experiment.
+Data from various sources is gathered, reviewed, and then analyzed to form some sort of finding or conclusion.
+There are a variety of specific data analysis method, some of which include data mining, text analytics, business intelligence, and data visualizations. 
