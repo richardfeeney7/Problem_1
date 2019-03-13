@@ -24,9 +24,9 @@ def prime(num):                 # Define the function
                 #print("Sorry" ,name, num, "is not prime")
                 print(f"Sorry {name}," ,num, "is not prime") # Modified above print to use formatted string
                 break                                       # Break out of statement
-        else:
-            # print("Yes", name, num, "is a prime number") 
-              print(f"Sucess {name},",num,"is a prime number") # Modified above print to use formatted string
+            else:
+                # print("Yes", name, num, "is a prime number") 
+                print(f"Sucess {name},",num,"is a prime number") # Modified above print to use formatted string
 
     elif num == 1:              # 1 cant be a prime number as it only has 1 factor
         print("Sorry", num, "is not a prime number")  

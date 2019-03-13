@@ -87,7 +87,7 @@ The second IF statement is contained within the WHILE loop and will check if the
 
 *Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime*   
 
-Completed this question by using the range function that is inside an if statement. The if statement checks if the user enters in a number greater than 1 because 1 is not a prime number. If the user enters in a negative number they will be told that prime numbers can only be positive.  
+Completed this question by using a FOR Loop and range function that is inside an IF statement that will be executed if the input is greater than one otherwise idf the input is one or less the used will be told to try again. Another IF statement inside the FOR Loop checks if the the input has a remainder of 0 / divides by two. If it can divide by two it is not a prime number. 
 
 *Additional study resources used*
 
