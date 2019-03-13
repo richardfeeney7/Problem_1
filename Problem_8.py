@@ -9,7 +9,12 @@ import datetime as dt #Import the datetime module
 current = dt.datetime.now() # Use datetime.now() to get the current date and time
 print("\n")
 
-#print("The current date and time is :",(current.strftime("%A, %B, %Y at %I:%M %p"))) # strftime is used format / pull different information from date by using the %? 
+#Below commmented code was used to view the datetime format
+'''
+datetime = dt.datetime.now()
+print(datetime)
+'''
 
+#print("The current date and time is :",(current.strftime("%A, %B, %Y at %I:%M %p"))) # strftime is used format / pull different information from date by using the %? 
 print("The current date and time is :",(current.strftime("%A, %B, %dth, %Y at %I:%M %p"))) # I forgot to add the date so i will add %d in strftime
 
