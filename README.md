@@ -4,9 +4,8 @@
 
 # Problem Set 2019
 
-This document contains the instructions for Problem Set 2019 for Programming and Scripting. In total I will
-complete ten problems during the semester. Please find a link below to the problem set that we are required to
-complete
+This document contains the instructions for Problem Set 2019 for Programming and Scripting.
+Please find a link below to the problem set that we are required to complete
 
         https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf
 
@@ -42,9 +41,7 @@ This program will request the user to input a positive number. Once the number i
 *Write a program that outputs whether or not today is a day that begins with the letter T.*
 
 
-This program checks the current day. If the day falls on a Tuesday or Thursday it will output to the user that today starts with T. If the day begins with any other letter the user will be told what the current day is and that it does not start with the letter T. 
-
-To create this application I imported the datetime function and gave it an alias of dt so it would involve less writing as I used it in the application.
+This program checks the current day and if it begins with the letter T. If the day falls on a Tuesday or Thursday it will output to the user that today begins with the letter T. If the day begins with any other letter the user will be notified what the current day is and that it does not start with the letter T. To create this application I imported the datetime function and gave it an alias of dt. I then used datetime.now() to get the current time and date and store it in a variable that I will use in an IF statement to check if the day begins with the letter T. I have also used the string format time function (strftime("")) to return the string that will output the current day. 
 
 
 *Additional study resources used*
