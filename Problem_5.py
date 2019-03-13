@@ -16,7 +16,6 @@ if num > 1:
         print("Your number ",num, " is a prime")
 '''
 
-
 def prime(num):                 # Define the function
     if num > 1:                 # Start IF statement to search for prime number
         for i in range(2,num):  # Create the range function starting at 2 that also accepts the user input paramater
