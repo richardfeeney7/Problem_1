@@ -75,6 +75,7 @@ To complete this question I have used a WHILE loop and and two IF statement. One
 
 The second IF statement is contained within the WHILE loop and will check if the current value in the loop is even and if it is it will be divided by two. The ELSE to this IF statement will be executed if the number is odd and in this case it will be multiplied by three with one added to it.
 
+
 *Additional study resources used*
 
     * https://www.youtube.com/watch?v=5mFpVDpKX70
