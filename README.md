@@ -25,9 +25,7 @@ complete
 
 *Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number*
 
-This program is ask the user for an input then get the total sum between 1 and the user input. An example to this would be user input of 9, the result displayed back to the user is 45. The user will be asked if they want to try the program again or exit. 
-
-I have also added a statement that checks if the user enters in a negative number and if a negative number is entered they will be asked if they want to try again or exit the application. 
+This program will request the user to input a positive number. Once the number is entered it will get the total sum between 1 and the user input. An example for this would be if the number nine was entered the result displayed back to the user is forty-five. I have also added in the option for the user to try again or exit the application. If a negative number is entered the user will be notified that they cant use a negative number and if they would like to try again. To create this application I have used a function that will accept the number entered by the user. I then used while loops and if statements to generate the required result. 
 
 *Additional study resources used*
     
