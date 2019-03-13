@@ -71,7 +71,9 @@ This program will display all the number that are divisible by six. To complete 
 
 *Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and,if it is even divide it by two,but if it is odd,multiply it by three and add one. Have the program end if the current value is one.*
 
-This program accepts user input, this user input must be a positive number. If the user enters in a negative number they will be asked to try again. The collatz problem says that no matter what number is entered it will eventually end at number 1
+To complete this question I have used a WHILE loop and and two IF statement. One of the IF statements will be executed if the user enters a number less than one and they will be asked to try again. 
+
+The second IF statement is contained within the WHILE loop and will check if the current value in the loop is even and if it is it will be divided by two. The ELSE to this IF statement will be executed if the number is odd and in this case it will be multiplied by three with one added to it.
 
 *Additional study resources used*
 

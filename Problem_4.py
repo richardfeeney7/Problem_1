@@ -9,6 +9,7 @@
 '''
 
 def user_input(num):        # Define function
+    print(num)              # Print num
     while num > 1:          # This will check user input and loops while > 1. If i had > 0 is would run an infinite loop with the number 1
         if num % 2 == 0:    # Checks the remainder of num and if = 0 continue
             num = num/2     # Divide num by 2 
