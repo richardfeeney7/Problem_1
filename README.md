@@ -96,7 +96,6 @@ Completed this question by using a FOR Loop and range function that is inside an
     * https://stackoverflow.com/questions/11619942/print-series-of-prime-numbers-in-python?fbclid=IwAR0oTLdlnxyIj0bdKz_gqOJWTJr2m2LnkICzHVtzemMlNt_ie80KR-nvI04
 
 
-
 ## Question 6
 
 *Write a program that takes a user input string and outputs every second word.* 
