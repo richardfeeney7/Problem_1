@@ -57,7 +57,7 @@ This program checks the current day and if it begins with the letter T. If the d
 *Write a program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12*
 
 
-This program will display all the number that are divisible by 6. If the number is divisible by both 6 and 12 the line will be skipped and wont be outputted for the user to see.
+This program will display all the number that are divisible by six. To complete this question I used a for loop with a range function that started at 1000 and finished at 10001. The extra one to ten thousand was required so ten thousand would also be included. In the FOR loop I have user an IF statement to find what is divisible by six but not twelve. If the number is divisible by both six and twelve the line will be skipped and wont be outputted for the user to see. 
 
 
 *Additional study resources used*
