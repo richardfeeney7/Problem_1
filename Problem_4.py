@@ -12,13 +12,11 @@ def user_input(num):        # Define function
     while num > 1:          # This will check user input and loops while > 1. If i had > 0 is would run an infinite loop with the number 1
         if num % 2 == 0:    # Checks the remainder of num and if = 0 continue
             num = num/2     # Divide num by 2 
-            print(int(num)) # Print the output
+            print(int(num)) # Print the output. INT was declared because it was outputting a Float
 
         else:                 # Will be used if the number is an odd number 
             num = (num*3) + 1 # If number is odd this calculation will be stored and printed to the screen
-            print(int(num))   # Print the output
-
-# User input was set to int but was outputting a float (Decimal), I have the prints set to output int and this has solved the issue.
+            print(int(num))   # Print the output. INT was declared because it was outputting a Float
 
     if num < 1:                     # Check is num < 1 and prints try again
         print("Please try again")   # Prints output
