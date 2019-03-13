@@ -127,3 +127,27 @@ Python has a module called math that store functions like sqrt() which is how I 
 *Additional study resources used*
 
     * https://www.tutorialspoint.com/python/number_sqrt.htm
+
+
+## Question 8
+
+*Write a program that outputs today’s date and time in the format “Monday,January 10th 2019 at 1:15pm”.*
+
+
+
+
+*Additional study resources used*
+
+    * 
+
+
+## Question 9
+
+*Write a program that reads in a text ﬁle and outputs every second line. *
+
+ 
+
+
+*Additional study resources used*
+
+    * https://stackoverflow.com/a/40647980/5644281m
