@@ -100,7 +100,9 @@ Completed this question by using a FOR Loop and range function that is inside an
 
 *Write a program that takes a user input string and outputs every second word.* 
 
-This program takes user input and by using .split() I can take that input and put the words into a list. I can then slice this list to retrieve the information that i need. I used len() in the slice so it will jump in multiples of two depending on the string length the user provided. I have used * at the beginning of the slice as this stopped [ ] appearing when every second work was printed out on screen. I could have used .join in my slice instead of * but * was quicker for me. I have an example of both in my code.  
+By using .split() I can take the input and put it into a list. I can then slice this list to retrieve the information that i need. I used len() in the slice so it will jump in multiples of two depending on the string length the user provided. 
+
+I have used * at the beginning of the slice as this stopped [ ] appearing when every second work was printed out on screen. I could have used .join in my slice instead of * but * was quicker for me. 
 
 
 *Additional study resources used*
