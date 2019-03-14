@@ -146,9 +146,14 @@ To complete this question I first imported the datetime module and then created 
 
 *Write a program that reads in a text ﬁle and outputs every second line. *
 
- 
+ In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
+
+ When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces
 
 
 *Additional study resources used*
 
     * https://stackoverflow.com/a/40647980/5644281m
+    * https://docs.python.org/2/tutorial/inputoutput.html
+    * https://www.tutorialspoint.com/python/string_strip.htm
+    

@@ -23,7 +23,7 @@ with open("Q9_File.txt", "w") as f: #recommended way to use as it will close onc
         f.write("There are a variety of specific data analysis method, some of which include data mining, text analytics, business intelligence, and data visualizations. \n")
 '''
 
-#Below with will read the file and output it to the screen
+# Below with will read the file and output it to the screen. Used for testing so I have commented it out.
 '''
 with open("Q9_File.txt", "r") as f:
     s = f.read()
@@ -43,11 +43,10 @@ with open("Q9_File.txt", "r") as f:
 
 # Rewritten block of code to not include the line spacing on line 22. Please note that I have added a second line space into line 22 as I want line 23 to output. 
 with open("Q9_File.txt", "r") as f:
-    count = 2                   # Set a variable to 2 that will used in the elif 
+    count = 0                   # Set a variable to 2 that will used in the elif 
     for line in f:              # For loop used to increment count by one as it loops the file f
-        count += 1
+        count += 1              # Add 1 to count as it loops
         if not line.strip():    # If the line is empty continue will just pass it and not display it as output
             continue
         elif count % 2 == 1:    # Used to indicate a remander and if it is 1 it will print that line
             print(line)
-
