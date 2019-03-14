@@ -31,6 +31,7 @@ print(s)
 print("\n")
 '''
 
+
 #Below with statement is accepthing empty lines as I have added a space between the paragraphs. I will rewrite it below using .split
 '''
 with open("Q9_File.txt", "r") as f:
@@ -50,3 +51,6 @@ with open("Q9_File.txt", "r") as f:
             continue            # continue is used to skip the line if is contains while spaces
         elif count % 2 == 1:    # Used to indicate a remander and if it is 1 it will print that line
             print(line)        
+
+
+
