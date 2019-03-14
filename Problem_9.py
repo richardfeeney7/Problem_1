@@ -43,10 +43,10 @@ with open("Q9_File.txt", "r") as f:
 
 # Rewritten block of code to not include the line spacing on line 22. Please note that I have added a second line space into line 22 as I want line 23 to output. 
 with open("Q9_File.txt", "r") as f:
-    count = 0                   # Set a variable to 2 that will used in the elif 
+    count = 2                   # Set a variable to 2 that will used in the elif 
     for line in f:              # For loop used to increment count by one as it loops the file f
         count += 1              # Add 1 to count as it loops
         if not line.strip():    # If the line is empty continue will just pass it and not display it as output
-            continue
+            continue            # continue is used to skip the line if is contains while spaces
         elif count % 2 == 1:    # Used to indicate a remander and if it is 1 it will print that line
-            print(line)
+            print(line)        
