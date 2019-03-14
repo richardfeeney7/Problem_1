@@ -207,6 +207,4 @@ When displaying the output I set a alias for my TXT file. I then created a varia
 
 *Additional study resources used*
 
-    * https://stackoverflow.com/a/40647980/5644281m
-    * https://docs.python.org/2/tutorial/inputoutput.html
-    * https://www.tutorialspoint.com/python/string_strip.htm
+    * https://www.tutorialspoint.com/python/python_matplotlib.htm

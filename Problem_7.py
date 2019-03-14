@@ -17,3 +17,8 @@ def sqrt(num):      # Define function
 
 #sqrt(int(input("Please enter in a number containing decimals : "))) # This is only outputting a int, it needs to be a float'
 sqrt(float(input("Please enter in a number containing decimals : "))) # Use float to accept a decimal input from the user and sent it to the function. 
+
+
+# Another method to completing this manually is below by using Neuton's Law.
+
+
