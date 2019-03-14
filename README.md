@@ -209,3 +209,4 @@ When displaying the output I set a alias for my TXT file. I then created a varia
 
     * https://www.tutorialspoint.com/python/python_matplotlib.htm
     * https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.arange.html
+    *https://www.geeksforgeeks.org/numpy-arange-python/
