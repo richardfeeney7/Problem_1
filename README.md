@@ -120,12 +120,13 @@ I have used * at the beginning of the slice as this stopped [ ] appearing when e
 
 *Write a program that takes a positive ﬂoating point number as input and outputs an approximation of its square root.*
 
-Python has a module called math that store functions like sqrt() which is how I completed this assignment. I added in an if statement to make sure that the user input was positive and display a message if it was not. This question asks for a floating input and output so I will use a float as int does not store decimal numbers. Some output can have alot of digits after the decimal so I have used the round function that rounds the number to two decimal places. 
+Python has a module called math that stores a functions sqrt() which I have used to complete this question. I added in an IF ELSE statement to verify if the input was a positive number and display the answer on the screen. If the user entered a negative number they will be asked to input a positive number. I have used the round function as part of my print statement and set this to two decimal places.
 
 
 *Additional study resources used*
 
     * https://www.tutorialspoint.com/python/number_sqrt.htm
+    * https://www.w3schools.com/python/ref_func_round.asp
 
 
 ## Question 8
