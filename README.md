@@ -200,10 +200,7 @@ When displaying the output I set a alias for my TXT file. I then created a varia
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_10.py
 
 
-In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
-
-When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces
-
+In this question I have imported mathplotlib.pyplot for creating the graph and used numpy for adding the range specified in the question. I have structured the graph by adding a title, x and y axis labels, displaying the grid and a legend that will center align on the graph. 
 
 *Additional study resources used*
 
