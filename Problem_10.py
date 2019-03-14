@@ -18,15 +18,15 @@ mp.xlabel("X Axis")           # Add title on x axis
 mp.ylabel("Y Axis")           # Add title on y axis
 mp.grid(True)                 # Add grid onto graph for easier viewing
 
-#mp.legend(["y = x","y = x^2", "y = 2x"]) Moved below the plottong 
+#mp.legend(["y = x","y = x^2", "y = 2x"]) Moved to line 33 as it was not displaying before the plotting was made 
 
 a = x       # function x as given in the question
 y = x*x     # function x^2 as given in the question
 z = 2**x    # function 2x as given in the question
 
-mp.plot(x, a) # Plot f(x)
-mp.plot(x, y) # Plot f(x**2)
-mp.plot(x, z) # Plot f(2**x)
+mp.plot(x, a, linewidth =6 , linestyle="--") # Plot f(x),set line width and style
+mp.plot(x, y, linewidth =4,  linestyle="--") # Plot f(x**2),set line width and style
+mp.plot(x, z, linewidth =4 , linestyle="--") # Plot f(2**x),set line width and style
 
 mp.legend(["y = x","y = x^2", "y = 2x"], loc="upper center") # Added ro lock it in the center of the graph
 
