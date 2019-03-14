@@ -6,10 +6,14 @@
  
 
 import matplotlib.pyplot as p # Import matplotlib and give it an alias of p
+import numpy as ran # Import numpy and define alias of ran
 
-x = (0, 1, 2, 3, 4) # Set X values in an array 
+# x = 1,2,3,4  TypeError: unsupported operand type(s) for ** or pow(): 'tuple' and 'int'. Will import numpy
 
-a = x
+# numpy.arange([start, ]stop, [step, ]dtype=None) How .arange is structured
+x = ran.arange(0, 4) # Return evenly spaced values within the given range. form 0 to 4 not including 4. Change 4 to 5 if we wish to include 4
+
+a = x    
 y = x**2
 z = 2**x
 
