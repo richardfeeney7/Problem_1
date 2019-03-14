@@ -9,6 +9,8 @@ import math # Import and use the math module
 def sqrt(num):      # Define function
     if(num > 0):    # Start if statement
         num2 = (math.sqrt(num)) # Take user input num and use the math.sqrt to find the square root and store it in num2
+        
+        #print("The square root of ", num, "is  = " ,round(num2)) # Decided to round it on the next line for a more accurate answer. 
         print("The square root of ", num, "is  = " ,round(num2,2)) # Output the square root that is stored in num2 and round it to two decimal places
     else:
         print("Please input a positive number ! ")
