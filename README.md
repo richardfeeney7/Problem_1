@@ -26,6 +26,8 @@ Please find a link below to the problem set that we are required to complete
 
 This program will request the user to input a positive number. Once the number is entered it will get the total sum between 1 and the user input. An example for this would be if the number nine was entered the result displayed back to the user is forty-five. I have also added in the option for the user to try again or exit the application. If a negative number is entered the user will be notified that they cant use a negative number and if they would like to try again. To create this application I have used a function that will accept the number entered by the user. I then used while loops and if statements to generate the required result. 
 
+https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_1.py
+
 *Additional study resources used*
     
     * https://www.w3schools.com/python/python_while_loops.asp
@@ -144,7 +146,7 @@ To complete this question I first imported the datetime module and then created 
 
 ## Question 9
 
-*Write a program that reads in a text ﬁle and outputs every second line. *
+*Write a program that reads in a text ﬁle and outputs every second line.*
 
  In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
 
@@ -157,3 +159,18 @@ To complete this question I first imported the datetime module and then created 
     * https://docs.python.org/2/tutorial/inputoutput.html
     * https://www.tutorialspoint.com/python/string_strip.htm
     
+
+## Question 10
+
+*Write a program that displays a plot of the functions x, x2 and 2x in the range [0,4].*
+
+ In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
+
+ When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces
+
+
+*Additional study resources used*
+
+    * https://stackoverflow.com/a/40647980/5644281m
+    * https://docs.python.org/2/tutorial/inputoutput.html
+    * https://www.tutorialspoint.com/python/string_strip.htm
