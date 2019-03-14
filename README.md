@@ -133,12 +133,13 @@ Python has a module called math that stores a functions sqrt() which I have used
 
 *Write a program that outputs today’s date and time in the format “Monday,January 10th 2019 at 1:15pm”.*
 
-
+To complete this question I first imported the datetime module and then created a variable that will store the current date and time. To find the date and time as specified in the question I used the strftime module to pull the required information and formatting from datetime. 
 
 
 *Additional study resources used*
 
-    * 
+    * https://www.journaldev.com/23324/python-strftime
+    * https://docs.python.org/2/library/datetime.html
 
 
 ## Question 9
