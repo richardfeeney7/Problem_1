@@ -30,6 +30,8 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 This program will request the user to input a positive number. Once the number is entered it will get the total sum between 1 and the user input. An example for this would be if the number nine was entered the result displayed back to the user is forty-five. I have also added in the option for the user to try again or exit the application. If a negative number is entered the user will be notified that they cant use a negative number and if they would like to try again. To create this application I have used a function that will accept the number entered by the user. I then used while loops and if statements to generate the required result. 
 
+
+
 *Additional study resources used*
     
     * https://www.w3schools.com/python/python_while_loops.asp
@@ -39,6 +41,7 @@ This program will request the user to input a positive number. Once the number i
     * https://www.w3schools.com/python/python_variables.asp
 
     * https://www.w3schools.com/python/python_conditions.asp
+
 
 ## Question 2
 
@@ -51,6 +54,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 This program checks the current day and if it begins with the letter T. If the day falls on a Tuesday or Thursday it will output to the user that today begins with the letter T. If the day begins with any other letter the user will be notified what the current day is and that it does not start with the letter T. To create this application I imported the datetime function and gave it an alias of dt. I then used datetime.now() to get the current time and date and store it in a variable that I will use in an IF statement to check if the day begins with the letter T. I have also used the string format time function (strftime("")) to return the string that will output the current day. 
 
 
+
 *Additional study resources used*
 
     * https://www.youtube.com/watch?v=eirjjyP2qcQ
@@ -58,6 +62,7 @@ This program checks the current day and if it begins with the letter T. If the d
     * https://stackoverflow.com/questions/45870820/how-to-check-if-today-is-monday-in-python
 
     * https://www.programiz.com/python-programming/datetime/strftime
+
 
 ## Question 3
 
@@ -68,6 +73,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 
 This program will display all the number that are divisible by six. To complete this question I used a for loop with a range function that started at 1000 and finished at 10001. The extra one to ten thousand was required so ten thousand would also be included. In the FOR loop I have user an IF statement to find what is divisible by six but not twelve. If the number is divisible by both six and twelve the line will be skipped and wont be outputted for the user to see. 
+
 
 
 *Additional study resources used*
@@ -90,6 +96,7 @@ To complete this question I have used a WHILE loop and and two IF statement. One
 The second IF statement is contained within the WHILE loop and will check if the current value in the loop is even and if it is it will be divided by two. The ELSE to this IF statement will be executed if the number is odd and in this case it will be multiplied by three with one added to it.
 
 
+
 *Additional study resources used*
 
     * https://www.youtube.com/watch?v=5mFpVDpKX70
@@ -106,6 +113,8 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 
 Completed this question by using a FOR Loop and range function that is inside an IF statement that will be executed if the input is greater than one otherwise idf the input is one or less the used will be told to try again. Another IF statement inside the FOR Loop checks if the the input has a remainder of 0 / divides by two. If it can divide by two it is not a prime number. 
+
+
 
 *Additional study resources used*
 
@@ -125,6 +134,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 By using .split() I can take the input and put it into a list. I can then slice this list to retrieve the information that i need. I used len() in the slice so it will jump in multiples of two depending on the string length the user provided. 
 
 I have used * at the beginning of the slice as this stopped [ ] appearing when every second work was printed out on screen. I could have used .join in my slice instead of * but * was quicker for me. 
+
 
 
 *Additional study resources used*
@@ -149,6 +159,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 Python has a module called math that stores a functions sqrt() which I have used to complete this question. I added in an IF ELSE statement to verify if the input was a positive number and display the answer on the screen. If the user entered a negative number they will be asked to input a positive number. I have used the round function as part of my print statement and set this to two decimal places.
 
 
+
 *Additional study resources used*
 
     * https://www.tutorialspoint.com/python/number_sqrt.htm
@@ -164,6 +175,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 
 To complete this question I first imported the datetime module and then created a variable that will store the current date and time. To find the date and time as specified in the question I used the strftime module to pull the required information and formatting from datetime. 
+
 
 
 *Additional study resources used*
@@ -184,7 +196,9 @@ In this question I have used the with keyword as this will automatically close f
 
 When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces. 
 
-Please note that in this question I orginally created a text file and wrote to it. The result would be the application ouputting every second line. I have updated this to implement sys.argv that will allow the user to specify the file to run this on. Both ways are in my code with the first method commented out and the sys.argv method the one that runs
+
+*Please note that in this question was updated. I originally created a text file and wrote to it and this was used to pull every second line fpr the user. I have updated this code to implement sys.argv that will allow the user to specify the file from the command line. Both examples are in the code file with the sys.argv method doing the work and the other method is commented out*
+
 
 
 *Additional study resources used*
@@ -192,6 +206,8 @@ Please note that in this question I orginally created a text file and wrote to i
     * https://stackoverflow.com/a/40647980/5644281m
     * https://docs.python.org/2/tutorial/inputoutput.html
     * https://www.tutorialspoint.com/python/string_strip.htm
+    * https://www.pythonforbeginners.com/system/python-sys-argv
+    * https://www.quora.com/What-is-sys-argv-in-python-and-how-is-it-used
     
 
 ## Question 10
@@ -203,6 +219,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 
 In this question I have imported mathplotlib.pyplot for creating the graph and used numpy for adding the range specified in the question. I have structured the graph by adding a title, x and y axis labels, displaying the grid and a legend that will center align on the graph. 
+
 
 *Additional study resources used*
 
