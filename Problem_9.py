@@ -7,6 +7,20 @@
 
 
 
+import sys # Import the sys library
+
+# print(sys.argv) # Print the list of Arguments.
+
+if len(sys.argv) > 1:  # If greater than one then the user has entered in arguments. (I could have wrote == 2 instead of > 1)
+    with open(sys.argv[1], 'r') as f:    # sys.argv[1] is the first commant line argument passed (ie Q9_File.py)
+        line = f.readlines()             # reads the lines in teh file and store in line.
+        for i in range(0, len(line), 2): # Loop the document and print every second line starting from position 0
+            print(line[i])               # Print every second line to the screen
+             
+else:
+    print ("Please specify an argument ie: python Problem_9.py ???????.")
+    sys.exit()
+
 # Below f.writes have already written these lines to my text file so I have commented them out. 
 '''
 with open("Q9_File.txt", "w") as f: #recommended way to use as it will close once the indent finishes.
@@ -44,6 +58,7 @@ with open("Q9_File.txt", "r") as f:
 '''
 
 # Rewritten block of code to not include the line spacing on line 22. Please note that I have added a second line space into line 22 as I want line 23 to output. 
+'''
 with open("Q9_File.txt", "r") as f:
     count = 2                   # Set a variable to 2 that will used in the elif 
     for line in f:              # For loop used to increment count by one as it loops the file f
@@ -52,6 +67,6 @@ with open("Q9_File.txt", "r") as f:
             continue            # continue is used to skip the line if is contains while spaces
         elif count % 2 == 1:    # Used to indicate a remander and if it is 1 it will print that line
             print(line)        
-
+'''
 
 

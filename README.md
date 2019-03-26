@@ -182,7 +182,9 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
 
-When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces
+When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces. 
+
+Please note that in this question I orginally created a text file and wrote to it. The result would be the application ouputting every second line. I have updated this to implement sys.argv that will allow the user to specify the file to run this on. Both ways are in my code with the first method commented out and the sys.argv method the one that runs
 
 
 *Additional study resources used*
