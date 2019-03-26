@@ -1,4 +1,5 @@
-#                   Author : Richard Feeney Started: 10/0232019
+#                              Author : Richard Feeney 
+#                               Started: 10/0232019
 
 #                                    Problem 9 :    
 #      Write a program that reads in a text ﬁle and outputs every second line. ”. 

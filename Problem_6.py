@@ -1,4 +1,5 @@
-#                   Author : Richard Feeney Started: 25/02/2019
+#                                Author : Richard Feeney 
+#                                 Started: 25/02/2019
 
 #                                    Problem 6 :    
 #           Write a program that takes a user input string and outputs every second word?

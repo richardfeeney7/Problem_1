@@ -1,5 +1,5 @@
-# Author Richard Feeney
-# Date 21/02/2017
+#                                   Author Richard Feeney
+#                                      Date 21/02/2017
 
 #                                         Problem 3 : 
  

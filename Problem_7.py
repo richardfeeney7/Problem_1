@@ -1,4 +1,5 @@
-#                   Author : Richard Feeney Started: 26/02/2019
+#                              Author : Richard Feeney 
+#                               Started: 26/02/2019
 
 #                                    Problem 7 :    
 #          Write a program that takes a positive ﬂoating point number as input and outputs an 
