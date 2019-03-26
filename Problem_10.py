@@ -1,4 +1,4 @@
-#                              Author : Richard Feeney 
+#                               Author : Richard Feeney 
 #                               Started: 14/03/2019
 
 #                                    Problem 10 : 
