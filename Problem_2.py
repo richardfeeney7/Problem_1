@@ -1,4 +1,4 @@
-#                                     Author Richard Feeney
+#                                      Author Richard Feeney
 #                                       Date 21/02/2017
 
 #                                        Problem 2 : 
