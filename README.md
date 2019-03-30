@@ -28,7 +28,9 @@ Please find a link below to the problem set that we are required to complete
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_1.py
 
 
-This program will request the user to input a positive number. Once the number is entered it will get the total sum between 1 and the user input. An example for this would be if the number nine was entered the result displayed back to the user is forty-five. I have also added in the option for the user to try again or exit the application. If a negative number is entered the user will be notified that they cant use a negative number and if they would like to try again. To create this application I have used a function that will accept the number entered by the user. I then used while loops and if statements to generate the required result. 
+This program will request the user to input a positive number. Once the number is entered it will get the total sum between 1 and the user input. An example for this would be if the number nine was entered the result displayed back to the user is forty-five. I have also added in the option for the user to try again or exit the application. I have used a function to accept the user input, used WHILE and IF statements to retrieve the required output
+
+If a negative number is entered the user will be notified that they cant use a negative number and if they would like to try again. To create this application I have used a function that will accept the number entered by the user. I then used while loops and if statements to generate the required result. 
 
 
 
@@ -51,7 +53,9 @@ This program will request the user to input a positive number. Once the number i
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_2.py
 
 
-This program checks the current day and if it begins with the letter T. If the day falls on a Tuesday or Thursday it will output to the user that today begins with the letter T. If the day begins with any other letter the user will be notified what the current day is and that it does not start with the letter T. To create this application I imported the datetime function and gave it an alias of dt. I then used datetime.now() to get the current time and date and store it in a variable that I will use in an IF statement to check if the day begins with the letter T. I have also used the string format time function (strftime("")) to return the string that will output the current day. 
+This program checks the current day and if it begins with the letter T. If the day falls on a Tuesday or Thursday it will output to the user that today begins with the letter T. If the day begins with any other letter the user will be notified what the current day is and that it does not start with the letter T. 
+
+To create this application I imported the datetime function and gave it an alias of dt. I then used datetime.now() to get the current time and date and store it in a variable that I will use in an IF statement to check if the day begins with the letter T. I have also used the string format time function (strftime("")) to return the string that will output the current day. 
 
 
 
@@ -72,7 +76,9 @@ This program checks the current day and if it begins with the letter T. If the d
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_3.py
 
 
-This program will display all the number that are divisible by six. To complete this question I used a for loop with a range function that started at 1000 and finished at 10001. The extra one to ten thousand was required so ten thousand would also be included. In the FOR loop I have user an IF statement to find what is divisible by six but not twelve. If the number is divisible by both six and twelve the line will be skipped and wont be outputted for the user to see. 
+This program will display all the number that are divisible by six. To complete this question I used a for loop with a range function that started at 1000 and finished at 10001. The extra one to ten thousand was required so ten thousand would also be included. 
+
+In the FOR loop I have used an IF statement to find what is divisible by six but not twelve. If the number is divisible by both six and twelve the line will be skipped and wont be outputted for the user to see. 
 
 
 
@@ -134,7 +140,7 @@ Please follow this link to view the finished python code : https://github.com/ri
 
 By using .split() I can take the input and put it into a list. I can then slice this list to retrieve the information that i need. I used len() in the slice so it will jump in multiples of two depending on the string length the user provided. 
 
-I have used * at the beginning of the slice as this stopped [ ] appearing when every second work was printed out on screen. I could have used .join in my slice instead of * but * was quicker for me. 
+I have used * at the beginning of the slice as this stopped [ ] appearing when every second word was printed to the screen. I could have used .join in my slice instead of * but * was quicker for me. 
 
 
 
@@ -157,7 +163,7 @@ I have used * at the beginning of the slice as this stopped [ ] appearing when e
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_7.py
 
 
-Python has a module called math that stores a functions sqrt() which I have used to complete this question. I added in an IF ELSE statement to verify if the input was a positive number and display the answer on the screen. If the user entered a negative number they will be asked to input a positive number. I have used the round function as part of my print statement and set this to two decimal places.
+Python has a module called math that stores a functions sqrt() which I have used to complete this question. I has originally added an IF ELSE statement to verify if the input was a positive number and display the answer on the screen, this worked fine but I have since updated it and replaced the IF Else with try and accept. If the user entered a negative number they will be asked to input a positive number. I have used the round function as part of my print statement and set this to two decimal places.
 
 
 
