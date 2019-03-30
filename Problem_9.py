@@ -11,14 +11,15 @@ import sys # Import the sys library
 
 # print(sys.argv) # Print the list of Arguments.
 
-if len(sys.argv) > 1:  # If greater than one then the user has entered in arguments. (I could have wrote == 2 instead of > 1)
+try: # Test the below block of code for errors
+    len(sys.argv) > 1  # If greater than one then the user has entered in arguments. (I could have wrote == 2 instead of > 1)
     with open(sys.argv[1], 'r') as f:    # sys.argv[1] is the first commant line argument passed (ie Q9_File.py)
         line = f.readlines()             # reads the lines in teh file and store in line.
         for i in range(0, len(line), 2): # Loop the document and print every second line starting from position 0
             print(line[i])               # Print every second line to the screen
              
-else:
-    print ("Please specify an argument ie: python Problem_9.py ???????.")
+except: # Handle the error - Output the print statement
+    print ("Please specify an argument ie: python Problem_9.py Q9_File.txt.")
     sys.exit()
 
 # Below f.writes have already written these lines to my text file so I have commented them out. 

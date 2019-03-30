@@ -199,12 +199,12 @@ To complete this question I first imported the datetime module and then created 
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_9.py
 
 
-In this question I have used the with keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
+In this question I have used the WITH keyword as this will automatically close file once it is finished. I used f.write to save the lines of code to a separate TXT file that will be used to pull the information and print every second line. 
 
-When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and if it will be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces. 
+When displaying the output I set a alias for my TXT file. I then created a variable that will increment by one as it loops through a FOR loop. The FOR loop is used with an IF statement inside it to check i and check will it be displayed or skipped. The application was displaying blank lines as output and to stop this from happening I used line.strip(), this will remove all white spaces. 
 
 
-*Please note that in this question was updated. I originally created a text file and wrote to it and this was used to pull every second line fpr the user. I have updated this code to implement sys.argv that will allow the user to specify the file from the command line. Both examples are in the code file with the sys.argv method doing the work and the other method is commented out*
+*Please note that in this question was updated. I originally created a text file and wrote to it and this was used to pull every second line fpr the user. I have updated this code to implement sys.argv that will allow the user to specify the file from the command line. I have also implemented the try except method Both examples are in the code file with the sys.argv method doing the work and the other method is commented out*
 
 
 
