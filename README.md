@@ -111,8 +111,9 @@ The second IF statement is contained within the WHILE loop and will check if the
 
 Please follow this link to view the finished python code : https://github.com/richardfeeney7/Problem_Sets/blob/master/Problem_5.py
 
+Created a function that asks the users name and then asks them to enter a number. I originally had one IF statement that contained two Elif's that checked if the number was below or equal to one. I have commented these out in my code and added an assert statement that will do the same check but with less code. The assert statement will be checked and if the condition is false and if so an assertion error will be raised alone with a messaged I have passed with it.
 
-Completed this question by using a FOR Loop and range function that is inside an IF statement that will be executed if the input is greater than one otherwise idf the input is one or less the used will be told to try again. Another IF statement inside the FOR Loop checks if the the input has a remainder of 0 / divides by two. If it can divide by two it is not a prime number. 
+Two is the only even prime number so when two is entered the output is incorrect. To counter this I have created an IF statement that prints out a statement when two is entered. All other user inputs will go through the the FOR loop with a nested IF statement that uses the modulo operator to check if the number is prime or not. I have also used f-strings in my code.   
 
 
 
